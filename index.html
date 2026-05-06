@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KQ Cutz | Premium Barbershop – Moate, Co. Westmeath</title>
+  <meta name="description" content="KQ Cutz – premium barbershop in Moate, Co. Westmeath. Haircuts for men and young lads. Book your cut online today." />
+  
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://kqcutz.ie/" />
+  <meta property="og:title" content="KQ Cutz | Premium Barbershop – Moate, Co. Westmeath" />
+  <meta property="og:description" content="KQ Cutz – premium barbershop in Moate, Co. Westmeath. Haircuts for men and young lads. Book your cut online today." />
+  <meta property="og:image" content="https://kqcutz.ie/about.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="logo.svg" />
+  <link rel="icon" type="image/png" href="logo.svg" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=2" />
+</head>
+<body style="background-color: #ffffff !important;">
+
+  <!-- NOISE OVERLAY -->
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- LOADING SCREEN -->
+  <div id="loading-screen">
+    <img src="logo.svg" alt="KQ Cutz" class="loading-logo" />
+  </div>
+
+  <!-- OPEN/CLOSED STATUS BAR -->
+  <div id="status-bar">
+    <span id="status-dot"></span>
+    <span id="status-text"></span>
+    <span id="status-hours">Fri–Sun: 10am – 8pm</span>
+  </div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="logo">
+        <img src="logo.svg" alt="KQ Cutz logo" id="logo-img" onerror="this.style.display='none'; document.getElementById('logo-text').style.display='block'" />
+        <span id="logo-text" class="logo-text" style="display:none">KQ<span>CUT<span class="gold-z">Z</span></span></span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Location</a></li>
+        <li><a href="#booking" class="nav-cta">Book Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <img src="logo.svg" alt="KQ Cutz Logo" class="hero-big-logo" />
+      <p class="hero-eyebrow">Moate, Co. Westmeath</p>
+      <h1>
+        <span class="word-reveal">FRESH </span><span class="word-reveal accent" style="--d:0.18s">CUTS.</span>
+        <br>
+        <span class="word-reveal" style="--d:0.36s">REAL </span><span class="word-reveal accent" style="--d:0.54s">CONFIDENCE.</span>
+      </h1>
+      <p class="hero-sub">Premium barbershop for the lads who take their look seriously.</p>
+      <div class="hero-btns">
+        <a href="#booking" class="btn btn-primary">Book Your Cut</a>
+        <a href="#services" class="btn btn-outline">See Services</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- MARQUEE TICKER -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-track">
+      <span>KQ CUTZ</span><span class="marquee-sep">✦</span>
+      <span>MOATE</span><span class="marquee-sep">✦</span>
+      <span>FRESH CUTS</span><span class="marquee-sep">✦</span>
+      <span>TAPER FADE</span><span class="marquee-sep">✦</span>
+      <span>BURST FADE</span><span class="marquee-sep">✦</span>
+      <span>SKIN FADE</span><span class="marquee-sep">✦</span>
+      <span>BOOK NOW</span><span class="marquee-sep">✦</span>
+      <span>CO. WESTMEATH</span><span class="marquee-sep">✦</span>
+      <span>KQ CUTZ</span><span class="marquee-sep">✦</span>
+      <span>MOATE</span><span class="marquee-sep">✦</span>
+      <span>FRESH CUTS</span><span class="marquee-sep">✦</span>
+      <span>TAPER FADE</span><span class="marquee-sep">✦</span>
+      <span>BURST FADE</span><span class="marquee-sep">✦</span>
+      <span>SKIN FADE</span><span class="marquee-sep">✦</span>
+      <span>BOOK NOW</span><span class="marquee-sep">✦</span>
+      <span>CO. WESTMEATH</span><span class="marquee-sep">✦</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about" class="about section">
+    <div class="container about-grid">
+      <div class="about-img-wrap">
+        <div class="about-collage">
+          <img src="gallery/about1.jpg" alt="KQ Cutz barber at work" onerror="this.parentElement.parentElement.classList.add('no-img'); this.parentElement.style.display='none';" />
+          <img src="gallery/about2.jpg" alt="KQ Cutz haircut in progress" />
+        </div>
+        <div class="about-badge">
+          <span class="badge-num">100%</span>
+          <span class="badge-label">Client<br>Satisfaction</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <p class="section-eyebrow">Who I Am</p>
+        <h2 class="section-title">More Than Just a Haircut</h2>
+        <p>At KQ Cut<span class="gold-z">z</span>, I do things differently. Every client gets a barber who actually listens, someone who takes the time to understand exactly what you want before a single cut is made. Whether it is a clean fade, a sharp taper, or getting your fringe sitting just right, I make sure you walk out looking exactly how you pictured it.</p>
+        <p>I work by appointment only, so when you sit in the chair, you have my full attention from start to finish. No rushing, no distractions, just a proper cut done the right way.</p>
+        <p>Based in the heart of Moate, Co. Westmeath, KQ Cut<span class="gold-z">z</span> is the ultimate spot for teenagers and young men who want a barber who truly gets it.</p>
+        <div class="about-stats" id="animated-stats">
+          <div class="stat">
+            <span class="stat-num" data-target="500" data-suffix="+">0</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-target="3" data-suffix="+">0</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-target="5" data-suffix="★">0</span>
+            <span class="stat-label">Reviews</span>
+          </div>
+        </div>
+        <a href="#booking" class="btn btn-primary">Book Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services section section-dark">
+    <div class="container">
+      <p class="section-eyebrow center">What I Offer</p>
+      <h2 class="section-title center">Services & Pricing</h2>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-icon">✂</div>
+          <h3>Taper Fade</h3>
+          <p>40 mins</p>
+          <div class="service-price">€15</div>
+        </div>
+
+        <div class="service-card featured">
+          <div class="service-badge-top">Most Popular</div>
+          <div class="service-icon">💈</div>
+          <h3>Burst Fade</h3>
+          <p>40 mins</p>
+          <div class="service-price">€15</div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🪒</div>
+          <h3>Skin Fade</h3>
+          <p>40 mins</p>
+          <div class="service-price">€15</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- STYLE QUIZ -->
+  <section class="quiz section" id="quiz">
+    <div class="container">
+      <div class="quiz-container">
+        <div class="quiz-intro" id="quiz-intro">
+          <p class="section-eyebrow">Not Sure What To Get?</p>
+          <h2 class="section-title">Find Your Cut</h2>
+          <p>Take our quick 2-step quiz to get a personalized recommendation based on your face shape and hair type.</p>
+          <button class="btn btn-primary" id="start-quiz">Start Quiz</button>
+        </div>
+        
+        <div class="quiz-step" id="quiz-step-1" style="display: none;">
+          <h3>1. What is your face shape?</h3>
+          <div class="quiz-options">
+            <button class="quiz-btn" data-shape="round">Round</button>
+            <button class="quiz-btn" data-shape="oval">Oval / Long</button>
+            <button class="quiz-btn" data-shape="square">Square / Angular</button>
+          </div>
+        </div>
+
+        <div class="quiz-step" id="quiz-step-2" style="display: none;">
+          <h3>2. What is your hair type?</h3>
+          <div class="quiz-options">
+            <button class="quiz-btn" data-type="straight">Straight</button>
+            <button class="quiz-btn" data-type="wavy">Wavy / Curly</button>
+            <button class="quiz-btn" data-type="thick">Very Thick / Coarse</button>
+          </div>
+        </div>
+
+        <div class="quiz-result" id="quiz-result" style="display: none;">
+          <p class="section-eyebrow">Your Match</p>
+          <h3 id="quiz-result-title">The Burst Fade</h3>
+          <p id="quiz-result-desc">A burst fade will perfectly complement your features while keeping the sides clean.</p>
+          <a href="#booking" class="btn btn-primary">Book This Cut</a>
+          <button class="btn btn-outline" id="restart-quiz" style="margin-left: 10px;">Try Again</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="gallery section">
+    <div class="container">
+      <p class="section-eyebrow center">The Work</p>
+      <h2 class="section-title center">Fresh Cuts Gallery</h2>
+
+      <div class="gallery-filters">
+        <button class="gallery-filter active" data-filter="all">All</button>
+        <button class="gallery-filter" data-filter="photo">Photos</button>
+        <button class="gallery-filter" data-filter="video">Videos</button>
+      </div>
+
+      <div class="gallery-grid" id="gallery-grid">
+
+        <div class="gallery-item tall" data-type="photo" data-src="gallery/IMG_6081.jpeg" data-index="0">
+          <img src="gallery/IMG_6081.jpeg" alt="KQ Cutz Haircut" loading="lazy" />
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-inner">
+              <svg class="gallery-expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+              <span>View</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-type="photo" data-src="gallery/IMG_6082.jpeg" data-index="1">
+          <img src="gallery/IMG_6082.jpeg" alt="KQ Cutz Haircut" loading="lazy" />
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-inner">
+              <svg class="gallery-expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+              <span>View</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-type="photo" data-src="gallery/IMG_6084.jpeg" data-index="2">
+          <img src="gallery/IMG_6084.jpeg" alt="KQ Cutz Haircut" loading="lazy" />
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-inner">
+              <svg class="gallery-expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+              <span>View</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item wide" data-type="photo" data-src="gallery/IMG_6085.jpeg" data-index="3">
+          <img src="gallery/IMG_6085.jpeg" alt="KQ Cutz Haircut" loading="lazy" />
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-inner">
+              <svg class="gallery-expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+              <span>View</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item video-item" data-type="video" data-index="4">
+          <video src="gallery/6959C7C0-9ECC-4AEE-BDC7-4E8C617568E3.mov" autoplay loop muted playsinline></video>
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-inner">
+              <svg class="gallery-expand-icon" viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M8 5v14l11-7z"/></svg>
+              <span>Watch</span>
+            </div>
+          </div>
+          <div class="video-badge">▶ Video</div>
+        </div>
+
+        <div class="gallery-item video-item" data-type="video" data-index="5">
+          <video src="gallery/69B523DD-2DCB-43FE-AACC-200F74B9227F.mov" autoplay loop muted playsinline></video>
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-inner">
+              <svg class="gallery-expand-icon" viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M8 5v14l11-7z"/></svg>
+              <span>Watch</span>
+            </div>
+          </div>
+          <div class="video-badge">▶ Video</div>
+        </div>
+
+      </div>
+
+      <div class="gallery-cta">
+        <a href="https://www.instagram.com/kq.cutz" target="_blank" rel="noopener" class="btn btn-outline">See More on Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">✕</button>
+    <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous">‹</button>
+    <button class="lightbox-next" id="lightbox-next" aria-label="Next">›</button>
+    <div class="lightbox-content" id="lightbox-content"></div>
+    <div class="lightbox-counter" id="lightbox-counter"></div>
+  </div>
+
+  <!-- SOCIAL FEEDS -->
+  <section class="social-feeds section section-dark" id="social">
+    <div class="container">
+      <div class="social-grid">
+        <!-- Instagram Embed -->
+        <div class="social-col">
+          <div class="social-header">
+            <div class="social-icon-title">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              <span>@kq.cutz</span>
+            </div>
+            <a href="https://www.instagram.com/kq.cutz" target="_blank" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.8rem;">Follow</a>
+          </div>
+          <div class="ig-grid">
+            <div class="ig-item"><img src="gallery/IMG_6081.jpeg" alt="Instagram Post" loading="lazy" /></div>
+            <div class="ig-item"><img src="gallery/IMG_6082.jpeg" alt="Instagram Post" loading="lazy" /></div>
+            <div class="ig-item"><img src="gallery/IMG_6084.jpeg" alt="Instagram Post" loading="lazy" /></div>
+            <div class="ig-item"><img src="gallery/IMG_6085.jpeg" alt="Instagram Post" loading="lazy" /></div>
+          </div>
+        </div>
+
+        <!-- TikTok Embed -->
+        <div class="social-col">
+          <div class="social-header">
+            <div class="social-icon-title">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/></svg>
+              <span>@kq.cutz</span>
+            </div>
+            <a href="https://www.tiktok.com/@kq.cutz" target="_blank" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.8rem;">Follow</a>
+          </div>
+          <div class="tiktok-embed-mock">
+            <video src="gallery/6959C7C0-9ECC-4AEE-BDC7-4E8C617568E3.mov" autoplay loop muted playsinline></video>
+            <div class="tiktok-overlay">
+              <div class="tiktok-play">▶</div>
+              <p>Precision cuts at KQ Cutz 💈</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section id="booking" class="booking section section-dark">
+    <div class="container booking-inner">
+      <div class="booking-text">
+        <p class="section-eyebrow">Easy Online Booking</p>
+        <h2 class="section-title">Ready for a Fresh Cut?</h2>
+        <p>Pick your service, choose a time that works for you, and show up. It's that simple. No waiting around, no hassle.</p>
+        <ul class="booking-perks">
+          <li>✔ Instant confirmation</li>
+          <li>✔ Reminder text sent to your phone</li>
+          <li>✔ Easy reschedule if plans change</li>
+        </ul>
+      </div>
+      <div class="booking-form-wrap" style="padding: 0; overflow: hidden; min-height: 600px;">
+        <iframe src="https://killianquinn.setmore.com/killianquinn" scrolling="yes" width="100%" height="100%" style="border: none; min-height: 600px;" allow="web-share; payment"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq section" id="faq">
+    <div class="container">
+      <p class="section-eyebrow center">Got Questions?</p>
+      <h2 class="section-title center">Frequently Asked</h2>
+      
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question">
+            How long does a haircut usually take?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Most cuts take a maximum of 40 minutes. I don't rush the process—I take my time to make sure every detail is perfect before you leave the chair.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <button class="faq-question">
+            What happens if I'm running late?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>If you're running more than 30 minutes late, we may need to reschedule to avoid delaying the next client. Please drop me a message if you're delayed.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Do you take card payments?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>I currently accept cash or Revolut transfers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact section">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <p class="section-eyebrow">Get in Touch</p>
+        <h2 class="section-title">Find Me</h2>
+        <div class="contact-items">
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <div>
+              <strong>Location</strong>
+              <p>Moate, Co. Westmeath, Ireland</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📞</span>
+            <div>
+              <strong>Phone</strong>
+              <p><a href="tel:0873556548">087 355 6548</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">✉</span>
+            <div>
+              <strong>Email</strong>
+              <p><a href="mailto:killianquinn10@gmail.com">killianquinn10@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">🕐</span>
+            <div>
+              <strong>Hours</strong>
+              <p>Fri–Sun: 10am – 8pm<br>Mon–Thu: Closed</p>
+            </div>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://www.instagram.com/kq.cutz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@kq.cutz?_r=1&_t=ZN-95hKNF3sEhK" target="_blank" rel="noopener" class="social-link" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="map-wrap">
+        <iframe
+          title="KQ Cutz location map"
+          src="https://maps.google.com/maps?q=53.3980,-7.7175&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo">
+        <span class="logo-text">KQ<span>CUT<span class="gold-z">Z</span></span></span>
+      </a>
+      <p>© 2026 KQ Cut<span class="gold-z">z</span>. All rights reserved. Moate, Co. Westmeath.</p>
+      <p class="footer-small">Website by <a href="https://kgdigital.ie" target="_blank" rel="noopener">KG Digital</a></p>
+    </div>
+  </footer>
+
+  <!-- FLOATING AVAILABILITY WIDGET -->
+  <a href="#booking" id="availability-widget" class="availability-widget">
+    <div class="aw-icon">
+      <span class="aw-pulse"></span>
+    </div>
+    <div class="aw-text">
+      <span class="aw-status" id="aw-status">Checking availability...</span>
+      <strong class="aw-time" id="aw-time"></strong>
+    </div>
+  </a>
+
+  <a href="#booking" class="fab" aria-label="Book Now">Book</a>
+
+  <!-- BACK TO TOP -->
+  <button id="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="20" height="20"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- COOKIE BANNER -->
+  <div id="cookie-banner">
+    <p>This website uses cookies to ensure you get the best experience.</p>
+    <button id="cookie-accept" class="btn btn-primary">Got it</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
