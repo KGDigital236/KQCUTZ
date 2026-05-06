@@ -283,7 +283,6 @@ ul { list-style: none; }
 .about-img-wrap {
   position: relative;
   border-radius: 12px;
-  overflow: hidden;
   aspect-ratio: 4/5;
   background: var(--bg-sec);
   border: 1px solid var(--border-color);
@@ -1224,7 +1223,12 @@ textarea { resize: vertical; min-height: 70px; }
   }
 
   .about-img-wrap { aspect-ratio: 4/3; }
-  .about-badge { right: 16px; }
+  .about-badge { 
+    right: 50%;
+    transform: translateX(50%);
+    bottom: -30px;
+    z-index: 5;
+  }
 
   .services-grid { grid-template-columns: 1fr; }
   .social-grid { grid-template-columns: 1fr; gap: 60px; }
