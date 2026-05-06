@@ -1140,14 +1140,7 @@ textarea { resize: vertical; min-height: 70px; }
 
 @media (max-width: 768px) {
   .availability-widget {
-    bottom: auto;
-    top: 80px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: max-content;
-  }
-  .availability-widget:hover {
-    transform: translateX(-50%) translateY(-3px);
+    display: none !important;
   }
 }
 
